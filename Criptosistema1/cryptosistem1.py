@@ -1,5 +1,5 @@
 from char_utils import char_to_num, num_to_char
-from Criptosistema2.math_utils import modular_inverse
+from math_utils import modular_inverse
 
 # Función de encriptado del Criptosistema 1
 def encrypt_cryptosystem1(text, a, b):
