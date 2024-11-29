@@ -1,7 +1,6 @@
-
-# Importar las funciones necesarias del criptosistema
 from cryptosistem1 import encrypt_cryptosystem1, decrypt_cryptosystem1
 from math_utils import char_repeated
+
 if __name__ == "__main__":
     # Criptosistema 1
     original_text_2 = "LA CULPA ES DE CATARINA"

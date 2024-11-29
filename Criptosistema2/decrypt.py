@@ -1,6 +1,7 @@
 import numpy as np
 from math_utils import modular_inverse
 from conversion import blocks_to_text
+# Desencriptar
 
 def decrypt_cryptosystem2(encrypted_blocks, T, b):
     T_inv = np.linalg.inv(T)  # Inversa de la matriz T

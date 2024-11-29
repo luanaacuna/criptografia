@@ -1,5 +1,6 @@
 import numpy as np
 from conversion import text_to_blocks, block_to_vector, blocks_to_text
+# Encriptar
 
 def encrypt_cryptosystem2(text, T, b):
     blocks = text_to_blocks(text)

@@ -1,10 +1,12 @@
 # Función para calcular el inverso modular
+
 def modular_inverse(a, mod):
     for i in range(mod):
         if (a * i) % mod == 1:
             return i
     return None
 # Letra que más se repite en un texto
+
 from collections import Counter
 from conversion import char_to_num
 def char_repeated(text):
